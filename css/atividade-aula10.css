@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url(../img/vingadores2.jpg) center center no-repeat #000;
+    width: auto;
+    height: 600px;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4em;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    font-size: 18px;
+    color: #fff;
+}
+
+button{
+    width: 200px;
+    padding: 15px 30px;
+    border: solid purple 4px;
+    border-radius: 25px;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: unset;
+    font-style: none;
+    letter-spacing: 2px;
+}
+
+#overlay{
+    position: absolute;
+    background-color: #0000009a;
+    height: 600px;
+    width: 100%;
+    padding-top: 220px;
+    box-sizing: border-box;
+}
