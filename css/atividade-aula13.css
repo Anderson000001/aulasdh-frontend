@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.content{
+    width: 60%;
+    max-width: 600px;
+    height: 50vh;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 100px;
+    border: solid 10px #29a6e0;
+    background-color: #3b479d;
+}
+
+.layer{
+    filter: blur(4px);
+}
+
+h1{
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px #0d97d6;
+    margin: 25px 0;
+    padding-bottom: 15px;
+}
+
+input::placeholder{
+    color: #29a6e0;
+    font-size: 15px;
+}
+
+.botao{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    position: relative;
+    background-color: transparent;
+    padding: 10px 50px;
+    border: solid 2px #fff;
+    color: #fff;
+}
+
+button::after{
+    content: "->";
+    margin-left: 10px;
+}
