@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+    'header header'
+    'aside main';
+}
+
+body header{
+    grid-area: header;
+}
+
+body aside{
+    grid-area: aside;
+}
+
+body main{
+    grid-area: main;
+}

@@ -19,6 +19,10 @@ body{
     box-sizing: border-box;
 }
 
+#relative{
+    position: relative;
+}
+
 #absolute{
     position: absolute;
     top: 0px;
