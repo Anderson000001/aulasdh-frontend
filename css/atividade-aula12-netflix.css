@@ -103,7 +103,5 @@ a{
 
 #divisoria{
     border-bottom: solid #666 1px;
-    width: 40%;
-    max-width: 400px;
-    min-width: 320px;
+    width: 100%;
 }
